@@ -1,0 +1,20 @@
+{
+  "name": "mean",
+  "version": "1.0.0",
+  "description": "MEAN Application - Authentication ",
+  "main": "app.js",
+  "scripts": {
+    "start":"node app"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dobarco/meanstack.git"
+  },
+  "author": "Rafael Dobarco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dobarco/meanstack/issues"
+  },
+  "homepage": "https://github.com/dobarco/meanstack#readme"
+}
