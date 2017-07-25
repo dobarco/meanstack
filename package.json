@@ -4,7 +4,7 @@
   "description": "MEAN Application - Authentication ",
   "main": "app.js",
   "scripts": {
-    "start":"node app"
+    "start": "node app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +16,16 @@
   "bugs": {
     "url": "https://github.com/dobarco/meanstack/issues"
   },
-  "homepage": "https://github.com/dobarco/meanstack#readme"
+  "homepage": "https://github.com/dobarco/meanstack#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^7.4.1",
+    "mongoose": "^4.11.4",
+    "passport": "^0.3.2"
+  }
 }

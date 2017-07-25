@@ -2,7 +2,18 @@ const path=require('path');
 const express=require('express');
 const cors = require('cors');
 const bodyParser=require('body-parser');
+const config=require('./config/database');
+const mongoose=require('mongoose');
 
+//Connect to Database
+mongoose.connect(config.database);
+
+mongoose.connection.on('connected',function(){
+	console.log("Connected to the database: "+config.database);
+})
+mongoose.connection.on('error',function(err){
+	console.log("Database error: "+config.database+err);
+})
 const app=express();
 
 //Port Number
